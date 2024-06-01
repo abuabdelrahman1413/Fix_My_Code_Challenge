@@ -14,14 +14,11 @@ if (process.argv.length <= 2) {
     process.exit(1)
 }
 
-size = parseInt(process.argv[2])
+size = parseInt(process.argv[2], 10)
 
 for (let i = 0 ; i < size ; i ++) {
     for (let j = 0 ; j < size ; j ++) {
         process.stdout.write("#");
     }
-    // Move the newline to the end of the outer loop
-    if (i < size - 1) { // Only print a newline if it's not the last row
-      process.stdout.write("\n"); 
-    }
+    process.stdout.write("\n");
 }

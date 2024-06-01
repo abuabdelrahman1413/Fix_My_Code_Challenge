@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"CodeGPT.apiKey": "Google AI Studio",
+		"sqltools.connections": [
+			{
+				"mysqlOptions": {
+					"authProtocol": "xprotocol",
+					"enableSsl": "Disabled"
+				},
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 33060,
+				"driver": "MySQL",
+				"name": "MySql local",
+				"database": "demo",
+				"username": "root",
+				"password": "1413",
+				"connectionTimeout": 50
+			}
+		],
+		"CodeGPT.Autocomplete.suggestionDelay": 1480,
+		"CodeGPT.Autocomplete.provider": "CodeGPT Plus - Plus",
+		"files.associations": {
+			"iostream": "cpp"
+		}
+	}
+}
